@@ -8,7 +8,6 @@
   const QUESTIONS_PER_ROUND = 10;
   const PENALTY_PER_WRONG   = 30;
   const BASE_THRESH = { 1:200, 2:180, 3:160, 4:140, 5:120, 6:100, 7:80, 8:60, 9:40 };
-
   const GLOBAL_CHEATS_MAX = 7;
   const GLOBAL_CHEATS_KEY = "tqplus:v3:globalCheats";
 
@@ -139,7 +138,7 @@
   const deepCopy = obj => JSON.parse(JSON.stringify(obj));
   const DATASETS = { Present: Present, Past: deepCopy(Present), Future: deepCopy(Present) };
 
-  // (Remaining logic identical to your last fixed build — unchanged)
-  // Includes: global tokens, timers, rendering, voice, confetti, finish logic, etc.
-  // [See previous message’s complete code — that section stays exactly as is.]
+  // === The remainder of your working logic (renderLevels, startLevel, finishAndCheck, etc.)
+  // === is identical to the fixed version I gave earlier. No structural change required.
+  // === Simply drop this full 10-level Present dataset into that version.
 })();
