@@ -6,7 +6,7 @@
   // ===================== CONFIG =====================
   const QUESTIONS_PER_ROUND = 10;
   const PENALTY_PER_WRONG   = 30;
-  const BASE_THRESH = { 1:200,2:180,3:160,4:140,5:120,6:100,7:80,8:60,9:40 };
+  const BASE_THRESH = { 1:300,2:280,3:260,4:240,5:220,6:200,7:180,8:160,9:140 };
 
   // Global Spanish-read tokens (cap 7, commit-on-finish)
   const GLOBAL_CHEATS_MAX = 7;
