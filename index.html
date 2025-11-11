@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TURBO: 
+    LC: Self, Peers, Pres </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><span class="turbo">TURBO</span>:LC: Self, Peers, Pres</h1>
+
+    <div id="tense-buttons" role="toolbar" aria-label="Tense selection">
+      <button class="tense-button active" data-tense="Present">Present</button>
+      <button class="tense-button" data-tense="Past">Past</button>
+      <button class="tense-button" data-tense="Future">Future</button>
+    </div>
+
+    <div id="level-list"></div>
+
+    <div id="game" style="display:none;">
+      <div id="timer">Time: 0s</div>
+      <div id="questions"></div>
+      <div class="controls">
+        <button id="submit">Finish & Check</button>
+        <button id="back-button" style="display:none;">Back to Levels</button>
+      </div>
+      <div id="results"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
